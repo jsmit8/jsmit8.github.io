@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>INSTANT - Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">INSTANT</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#works">Works</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<div id="workwrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h4>NEW MAPS FOR</h4>
+					<h1>Dr. Jackie Smith</h1>
+					<h4><a href="http://newmapsplus.uky.edu/">NewMapsPlus Student</a></h4>
+				</div>
+			</div><! --/row -->
+	    </div> <!-- /container -->
+	</div><! --/workwrap -->
+	
+	<section id="works"></section>
+	<div class="container">
+		
+			<div class="col-lg-8 col-lg-offset-2">
+				<h4>ABOUT THE MAPS</h4>
+				<p>The maps highlighted here are the result of MAP671 and MAP672 classes taken in the <a href="http://newmapsplus.uky.edu/">NewMapsPlus Program</a> at the <a href="http://www.uky.edu">University of Kentucky</a>.  These maps were really enjoyable to produce after learning the skills required.  While not as colorful, if you would like to see some more maps that utilized these skills, and are populated by live veterinary laboratory data visit: <a href="http://vdl.uky.edu/EpidemiologyInformation.aspx">UKVDL Epidemiolgy</a> and click on any of the map labeled links.  The maps for bovine and equine are dynamically updated as new cases come in.  <i>Enjoy!</i> </p>
+			</div>
+			<div class="col-lg-10 col-lg-offset-1 mt">
+				<img class="img-responsive" src="assets/img/pr01.jpg">
+				<br>
+                <h5>Map of Breweries in North America</h5>
+                <p>This map started with a spreadsheet of xy locations for breweries downloaded from <a href="http://www.poi-factory.com/">POI Factory</a>. The data is displayed as a hexbin heat map created in QGIS by using a spatial join method.  One of my favorite maps in my first class MAP671.</p> 
+                    <p>Created in: <a href="http://www.qgis.org/en/site/">QGIS</a></p>
+                <p>Data Source: <a href="http://www.poi-factory.com/">POI Factory</a></p>
+                <p>See the Map:<a href="assets/img/NAB.pdf">North American Breweries</a></p>
+                <br>
+				<img class="img-responsive" src="assets/img/pr02.jpg">
+                <br>
+                <h5>Map of Cancer Rates by County in the United States</h5>
+                <p>This web map was created in CartoDB by joining cancer profile tables to US Census Bureau Tiger line work.  The map showcases custom labels and color schemes created using CSS and HTML within the CartoDB framework.  The map interactivity allows the user to investigate cancer rates for all counties in the United States, and the counties with the highest and lowest rates of cancer are noted.  Using SQL, the map was reprojected to the North Americal Albers Equal Area Conic projection to escape the ubiquitous Web Mercator projection  </p> 
+                    <p>Created in: <a href="https://carto.com/">CartoDB</a> <a href="http://www.qgis.org/en/site/">QGIS</a> <a href="https://en.wikipedia.org/wiki/SQL">SQL</a> <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></p>
+                <p>Data Source: <a href="https://www.statecancerprofiles.cancer.gov/">State Cancer Profiles</a></p>
+                <p>See the Map:<a href="https://jlsmith03.carto.com/viz/3c252c22-25c0-11e6-b49b-0ecfd53eb7d3/public_map">Cancer Rates by County in the United States</a></p>
+                <br>
+                <br>
+				<img class="img-responsive" src="assets/img/pr03.jpg">
+                <br>
+                <h5>Map of Appalachia</h5>
+                <p>This web map was custom created in CartoDB by using US Census Bureau Tiger line county data and trimming it down to only the counties in Appalachia defined by <a href="https://www.arc.gov/counties">The Appalchian Regional Commission</a>.  I made this map for work, to illustrate the counties we were serving. The map showcases custom labels and color schemes created using CSS and HTML within the CartoDB framework.  The map interactivity allows the user to investigate the all the counties in Appalachia, and also see what counties in Appalachia were served by <a href="http://vdl.uky.edu/">The University of Kentucky Veterinary Diagnostic Laboratory</a></p> 
+                    <p>Created in: <a href="https://carto.com/">CartoDB</a> <a href="http://www.qgis.org/en/site/">QGIS</a> <a href="https://en.wikipedia.org/wiki/SQL">SQL</a> <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></p>
+                <p>Data Source: <a href="http://vdl.uky.edu/">UKVDL</a></p>
+                <p>See the Map:<a href="https://ukvdlmap.carto.com/viz/40a9e9de-5407-11e6-8ac0-0ee66e2c9693/public_map">University of Kentucky Veterinary Diagnostic Lab Serves Appalachia</a></p>
+                <br>
+				<img class="img-responsive" src="assets/img/pr04.jpg">
+                <br>
+                <h5>Historical Rabies Map for Kentucky</h5>
+                <p>These are maps of historical rabies data from the state of Kentucky. The source of the data is Kentucky Department of Public Health for <strong>1989-2015</strong>, and is now stored and maintained at the <a href="http://vdl.uky.edu/">The University of Kentucky Veterinary Diagnostic Laboratory</a> in the Epidemiology section. Kentucky Fish and Wildlife has also submitted their data from <strong>1976-2015</strong> to be included.Clicking on the county gives more detailed information, including positive and negative submissions as well as species by county. Multiple maps for your perusal.</p> 
+                    <p>Created in: <a href="https://carto.com/">CartoDB</a> <a href="http://www.qgis.org/en/site/">QGIS</a> <a href="https://en.wikipedia.org/wiki/SQL">SQL</a> <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></p>
+                <p>Data Source: <a href="http://vdl.uky.edu/">UKVDL</a></p>
+                <p>See the Maps:<a href="http://vdl.uky.edu/EpidemiologyInformation/RabiesMap.aspx"> Kentucky Rabies</a></p>
+                 <br>
+                <img class="img-responsive" src="assets/img/pr06.jpg">
+                <br>
+                <h5>Nuclear Plants Compared to Petroleum & Natural Gas</h5>
+                <p>This map was created in <a href="http://newmapsplus.uky.edu/syllabus-map672-programming-web-mapping">MAP672: Programming for Web Mapping</a>. <p>This map shows a comparison of nuclear power plants vs petroleum and natural gas. Nuclear power plants are light blue in color and will turn pale orange when highlighted, then a medium blue after you are done to keep track of which plants you have visited. Natural gas and petroleum power plants are light green and will turn pale yellow when highlighted, then turn a medium green after you are done to keep track of which plants you have visited. Clicking on the marker will tell you how much energy is produced at that location. Energy produced is expressed in <b><i>MegaWatts.</i></b> </p> 
+                   
+                <p>Data Source: <a href="http://www.eia.gov/electricity/data/eia923/">Energy Information Administration</a></p>
+               <p>See the Map:<a href="PowerComparison.html">Nuclear Compared to Petroleum and Natural Gas Plants</a></p>
+               <p>See the Code at:<a href="https://github.com/jsmit8/map672/blob/master/module-08/lab-08/lab-08-data/index.html">GitHub</a></p>
+                <br>
+				<img class="img-responsive" src="assets/img/pr05.jpg">
+                <br>
+                <h5>Environmentally Friendly Power Plants in the United States</h5>
+                <p>This map was created in <a href="http://newmapsplus.uky.edu/syllabus-map672-programming-web-mapping">MAP672: Programming for Web Mapping</a>. This map shows environmentally friendly power plants: nuclear, solar, wind and hydro power. This course was developed to help students in an introduction for web programming and javascript coding. These programs were written within a program called Brackets which was used alongside Github to store and present the maps.This proportional symbol map was created with data gathered from the Energy Information Administration. The point data gathered from the EIA was stored in a file and was added to the programming we wrote. We were then able to take that point data, change it, style it, and make the map interactive. All of the information we learned throughout this course was added to this map.</p> 
+                   
+                <p>Data Source: <a href="http://www.eia.gov/electricity/data/eia923/">Energy Information Administration</a></p>
+               <p>See the Map:<a href="Power%20Plants.html">Environmentally Friendly Power Plants</a></p>
+               <p>See the Code at:<a href="https://github.com/jsmit8/map672/blob/master/module-09/lab-09/lab-09-data/index.html">GitHub</a></p>
+                <br>
+				
+                
+			</div>
+
+		</div><! --/row -->
+	</div><! --/container -->
+	
+	<div id="social">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-2">
+				
+				</div>
+				<div class="col-lg-2">
+					<a href="https://twitter.com/jackiesmithlexk"><i class="fa fa-twitter"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://www.linkedin.com/in/jackie-smith-phd-98823442"><i class="fa fa-linkedin"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://www.instagram.com/jacquelinesmith1971/"><i class="fa fa-instagram"></i></a>
+				</div>
+			
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/social -->
+
+	<div id="footerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-4">
+					<p><b>Animal Scientist, Epidemiologist, Gamer and Map Junkie</b></p>
+				</div>
+			
+				<div class="col-lg-4">
+					<p>Living in Lexington, Kentucky.</p>
+				</div>
+				<div class="col-lg-4">
+					<p>jsmit8@uky.edu</p>
+				</div>
+			
+			</div>
+		
+		</div>
+	</div><! --/footerwrap -->
+	
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
