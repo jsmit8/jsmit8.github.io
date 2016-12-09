@@ -96,6 +96,26 @@ h1, h2, h3, h4, h5, h6 {
 	color: #1abc9c;
 }
 
+
+     
+     
+/*hyperlink management to keep track of whether link has been visited or not
+        
+      /* unvisited link */
+        a:link {
+            color: skyblue;
+        }
+
+        /* visited link */
+        a:visited {
+            color: tomato;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: lightsteelblue;
+        }
+
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
