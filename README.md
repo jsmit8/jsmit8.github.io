@@ -1,2 +1,2 @@
 # jsmit8.github.io
-MAP672 Portfolio
+MAP673 Portfolio
